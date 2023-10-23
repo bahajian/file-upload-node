@@ -62,7 +62,7 @@ jobs:
           flavor: latest=true
           tags: |
             type=ref,event=branch
-            type=ref,event=pr
+#            type=ref,event=pr
 #            type=semver,pattern={{version}}
 
 
