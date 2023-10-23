@@ -31,7 +31,6 @@
 #          tags: ${{ steps.meta.outputs.tags }}
 #          labels: ${{ steps.meta.outputs.labels }}
 
-
 #---------------------------------------------------
 
 name: Publish Docker image
