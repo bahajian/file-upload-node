@@ -69,15 +69,9 @@ jobs:
 
       - name: Build and push
         uses: docker/build-push-action@v3
-#        with:
-#          context: .
-#          push: true
-#          tags: ${{ steps.meta.outputs.tags }}
-#          labels: ${{ steps.meta.outputs.labels }}
         with:
           context: .
-          file: ./Dockerfile
           push: true
-#          push: ${{ github.ref_type == 'tag' }}
-          tags: ${{ steps.meta.outputs.tags }}
+#          tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+
