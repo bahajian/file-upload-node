@@ -61,7 +61,7 @@ jobs:
           images: bahajian/file.upload
           flavor: latest=true
           tags: |
-            type=ref,event=branch
+#            type=ref,event=branch
             type=ref,event=pr
             type=semver,pattern={{version}}
 
