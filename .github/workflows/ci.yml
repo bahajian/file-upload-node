@@ -56,7 +56,7 @@ jobs:
 
       - name: Build the Docker image
         id: meta
-        uses: docker/metadata-action@v4
+        uses: docker/metadata-action@v3
         with:
           images: bahajian/file.upload
           flavor: latest=true
